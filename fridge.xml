@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<manual title="Smart Refrigerator User Guide" version="2.0">
+    <section id="1.1" title="Overview">
+        <description>The <product>Smart Refrigerator</product> is built to keep your food fresh and save energy.</description>
+        
+        <features>
+            <feature>Wi-Fi connectivity</feature>
+            <feature>Built-in camera to track food</feature>
+            <feature>Control temperature and humidity</feature>
+            <feature>Works with Alexa and Google Home</feature>
+        </features>
+        
+        <setup>
+            <note>Important: Connect your refrigerator to a <network>2.4 GHz Wi-Fi</network> before using it.</note>
+            <step>1. Download the <app>Smart Fridge Control</app> app.</step>
+            <step>2. Follow the instructions in the app to finish setup.</step>
+        </setup>
+    </section>
+</manual>
+</root>

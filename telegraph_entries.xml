@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <entries date="1858-08-23">
+        <heading>August 23, 1858</heading>
+        
+        <weather>It rained very hard in Newfoundland from midnight until six A.M.</weather>
+        
+        <message sender="Newfoundland" receiver="Valentia" time="morning">
+            <content>Your currents very irregular. Repeat.</content>
+        </message>
+        
+        <message sender="Valentia" receiver="Newfoundland" time="morning">
+            <content>Signals weak. Will you take message from Lord Mayor?</content>
+        </message>
+        
+        <message sender="Newfoundland" receiver="Valentia" time="morning">
+            <content>Yes; send little faster and better.</content>
+        </message>
+        
+        <message sender="Valentia" receiver="Newfoundland" time="afternoon">
+            <content>Give 'understand' every twenty words.</content>
+        </message>
+        
+        <message sender="Newfoundland" receiver="Valentia" time="afternoon">
+            <content>All right. Send much faster. Understand, faster.</content>
+        </message>
+        
+        <note>Testing nearly the whole of the day at Valentia.</note>
+        
+        <person who="Queen Victoria" role="Queen of the United Kingdom"/>
+        <person who="President James Buchanan" role="President of the United States"/>
+    </entries>
+</root>
