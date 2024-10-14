@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Durk D. Tatum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        header, footer {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <img src="path-to-your-image1.jpg" alt="Image 1 Description">
+        <img src="path-to-your-image2.jpg" alt="Image 2 Description">
+        <img src="path-to-your-image3.jpg" alt="Image 3 Description">
+        <img src="path-to-your-image1.jpg" alt="Image 4 Description">
+        <img src="path-to-your-image1.jpg" alt="Image 5 Description">
+        <img src="path-to-your-image1.jpg" alt="Image 6 Description">
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Durk D. Tatum</p>
+    </footer>
+
+</body>
+</html>
 
