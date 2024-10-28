@@ -22,19 +22,18 @@
         <section>
             <h2>Education</h2>
             <ul>
-                <li>Penn State Behrend, 2028</li>
-                <li>Grace Christian Academy, Graduated 2024</li>
-                <li>Wesleyan Christian Academy, Middle School (6 - 8), 2018 - 2020</li>
+                <li>Penn State Behrend <span class="date">2028</span></li>
+                <li>Grace Christian Academy, Graduated <span class="date">2024</span></li>
             </ul>
         </section>
 
         <section>
             <h2>Relevant Experience</h2>
             <ul>
-                <li>Cayman Islands Government, Internship in Computer Services Department, March 2024</li>
-                <li>MUFG Fund Services (Cayman) Ltd, Internship in Investment Operation Department, Summer 2023</li>
-                <li>Kimpton Seafire Resort + Spa, Work Experience with IT Manager, April 26 - May 10, 2023</li>
-                <li>UCCI, Seasonal Maintenance Assistant, Summer 2021</li>
+                <li>Cayman Islands Government, Internship in Computer Services Department <span class="date">March 2024</span></li>
+                <li>MUFG Fund Services (Cayman) Ltd, Internship in Investment Operation Department <span class="date">Summer 2023</span></li>
+                <li>Kimpton Seafire Resort + Spa, Work Experience with IT Manager <span class="date">April 26 - May 10, 2023</span></li>
+                <li>UCCI, Seasonal Maintenance Assistant <span class="date">Summer 2021</span></li>
             </ul>
         </section>
 
@@ -56,17 +55,17 @@
         <section>
             <h2>Extra-Curricular Activities & Interest</h2>
             <ul>
-                <li>College Prep Club, 2023 - Present</li>
-                <li>Investment Talk Attendance (by Philip Liu), 2023 - 2024</li>
+                <li>College Prep Club <span class="date">2023 - Present</span></li>
+                <li>Investment Talk Attendance (by Philip Liu) <span class="date">2023 - 2024</span></li>
             </ul>
         </section>
 
         <section>
             <h2>Awards & Achievements</h2>
             <ul>
-                <li>(KPMG) BrainBowl Participation, 2022</li>
-                <li>(DART) Math Competition, 2022</li>
-                <li>Minds Inspired SDG Winner, 2024</li>
+                <li>(KPMG) BrainBowl Participation <span class="date">2022</span></li>
+                <li>(DART) Math Competition <span class="date">2022</span></li>
+                <li>Minds Inspired SDG Winner <span class="date">2024</span></li>
             </ul>
         </section>
 
@@ -110,7 +109,6 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
-            background: light-blue; 
         }
 
         body {
@@ -159,6 +157,15 @@
 
         li {
             margin-bottom: 5px;
+            position: relative;
+            padding-right: 80px; /* Space for the date on the right */
+        }
+
+        .date {
+            position: absolute;
+            right: 0;
+            color: #888;
+            font-size: 14px;
         }
 
         section p {
