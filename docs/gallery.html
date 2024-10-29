@@ -5,63 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Durk D. Tatum</title>
     <style>
-        body {
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
             font-family: Arial, sans-serif;
-            margin: 20px;
             background-color: #f4f4f9;
         }
-        header, footer {
-            text-align: center;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .gallery img {
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1;
         }
         nav ul {
             list-style-type: none;
             padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 15px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
         nav ul li a {
             text-decoration: none;
             color: #0066cc;
+            font-size: 1.2rem;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #e0e0e0;
+        }
+        .full-page-embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 0;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Gallery</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
 
-    <section class="gallery">
-        <img src="images/blacknwhite.jpg" alt=" Black and White picture a tiny branch">
-        <img src="images/bridge.jpg" alt="Bridge">
-        <img src="images/concert.jpg" alt="Concert Picture">
-        <img src="images/cross.jpg" alt="Picture of a cross">
-        <img src="images/sunset.jpg" alt="Picture of a Sunset">
-        <img src="images/sunset2.jpg" alt="Picture of another sunset">
-       
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Durk D. Tatum</p>
-    </footer>
+    <iframe 
+        src="https://www.thinglink.com/card/1901292989834068454" 
+        class="full-page-embed" 
+        allowfullscreen 
+        loading="lazy">
+    </iframe>
 
 </body>
 </html>
-
