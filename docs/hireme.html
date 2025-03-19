@@ -15,6 +15,26 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
+        }
+
+        .home-button {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0077b6;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .home-button:hover {
+            background-color: #005f8a;
         }
 
         .contact-container {
@@ -24,6 +44,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 350px;
             text-align: center;
+            margin-top: 50px;
         }
 
         h2 {
@@ -80,8 +101,8 @@
 </head>
 <body>
 
-<a href="index.html" class="home-button">Home</a> 
-    
+    <a href="index.html" class="home-button">Home</a> <!-- Replace # with your homepage link -->
+
     <div class="contact-container">
         <h2>Contact Me</h2>
         <p>Have a project or opportunity? Send me a message!</p>
@@ -99,4 +120,3 @@
 
 </body>
 </html>
-
